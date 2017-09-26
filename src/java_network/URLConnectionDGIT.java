@@ -17,7 +17,7 @@ public class URLConnectionDGIT {
 			urlConnection.setDoOutput(true);
 			
 			OutputStreamWriter osw = new OutputStreamWriter(urlConnection.getOutputStream());
-			osw.write("user_id=ypyo09&userpasswd=unrock147");
+			osw.write("user_id=ypyo09&userpasswd=");
 			//http://dgit.or.kr/login.php?user_id=ypyo09&userpasswd=
 			osw.close();
 			
